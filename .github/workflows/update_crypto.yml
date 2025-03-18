@@ -12,7 +12,7 @@ jobs:
 
       - name: Fetch new crypto data
         run: |
-          curl -s "https://api.cryptorates.ai/v1/coins/all" > crypto_data.json
+          curl -s "https://cryptorates.ai/v1/coins/all" > crypto_data.json
 
       - name: Commit and push changes
         run: |
